@@ -8,8 +8,7 @@ import {
   TrendingUp, 
   Sparkles, 
   Settings, 
-  X,
-  ShieldCheck
+  X
 } from 'lucide-react';
 
 const Sidebar = ({ isOpen, closeSidebar }) => {
@@ -43,10 +42,10 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
         <div className="flex h-16 items-center justify-between px-6 border-b border-border/40">
           <div className="flex items-center gap-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-md shadow-primary/20">
-              <ShieldCheck size={20} />
+              <Wallet size={20} />
             </div>
             <span className="text-xl font-bold tracking-tight text-foreground bg-gradient-to-r from-primary to-violet-600 bg-clip-text text-transparent">
-              CitizenLex
+              WalletIQ
             </span>
           </div>
           <button 

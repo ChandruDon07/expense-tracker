@@ -32,7 +32,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="flex flex-col">
           <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Workspace</span>
           <span className="text-base font-bold text-foreground bg-gradient-to-r from-primary to-violet-600 bg-clip-text text-transparent">
-            Personal Expense Tracker
+            WalletIQ
           </span>
         </div>
       </div>

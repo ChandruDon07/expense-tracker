@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod'; // Wait, let's import it 
 import * as z from 'zod';
 import { useAuth } from '../context/AuthContext';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Mail, Lock, AlertCircle, ArrowRight } from 'lucide-react';
+import { Wallet, Mail, Lock, AlertCircle, ArrowRight } from 'lucide-react';
 
 const loginSchema = z.object({
   email: z.string().min(1, 'Email is required').email('Invalid email address'),
@@ -53,13 +53,13 @@ const Login = () => {
       >
         <div className="text-center mb-8">
           <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-lg shadow-primary/20 mb-3">
-            <ShieldCheck size={28} />
+            <Wallet size={28} />
           </div>
           <h1 className="text-3xl font-extrabold tracking-tight text-foreground bg-gradient-to-r from-primary to-violet-600 bg-clip-text text-transparent">
-            CitizenLex
+            WalletIQ
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Enterprise Expense Tracking Platform
+            Smart Personal Finance & Expense Management
           </p>
         </div>
 
